@@ -65,3 +65,4 @@ gem 'jquery-rails'
 
 gem "figaro"
 gem "clearance"
+gem 'pg_search'
