@@ -19,5 +19,7 @@ Rails.application.routes.draw do
 
   resources :users, only: [:create, :update, :edit, :delete]
   resources :events 
+
+  resources :welcome, only:[:index]
   
 end
