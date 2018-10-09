@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  include Clearance::User
+
     has_many :events
-    # enum role: [:customer, :host, :moderator, :superadmin]
+    enum role: [:participant, :host, :superadmin]
 end
